@@ -2,7 +2,7 @@
 <!-- Date and time methods of the Date object. -->
 <html xmlns = "http://www.w3.org/1999/xhtml">
    <head>
-		<meta http-equiv="refresh" content="20">
+		<meta http-equiv="refresh" content="60">
 		<link rel="icon" href="https://cdn.discordapp.com/attachments/795758905904988200/932152168704774234/UMR_round.jpeg">
 		<title>Karoke</title>
 		<style>
@@ -24,7 +24,7 @@
 		</style>
    </head>
    <body>
-	   <br>
+	   <span>Current Time</span>
 		<div class="box">
 			<p id="time"></p>
 		</div>
@@ -35,10 +35,10 @@
 	let jst = current.getUTCHours() + 9;
 
 	let my = current.getUTCHours() + 8;
-
-	let time = my + ":"  + current.getMinutes() + " 【GMT+8 || Malaysia】" + 
+	
+	let time = my + ":" + (current.getMinutes()<10?'0':'') + current.getMinutes() + " 【GMT+8 || Malaysia】" + 
 		"<br><br>" + 
-		jst + ":" + current.getMinutes() + " 【GMT+9 || Japan】";
+		jst + ":" + (current.getMinutes()<10?'0':'') + current.getMinutes() + " 【GMT+9 || Japan】";
 		document.getElementById("time").innerHTML = time;
 			
 </script>
