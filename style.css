@@ -1,0 +1,53 @@
+html {zoom: 150%;}
+
+body {
+height: 100%;
+margin: 0;
+background-color: aliceblue; 
+background-size: cover;
+color: rgb(230, 224, 224);
+font-family: Arial;
+}
+
+.frame1{
+  height: 470px;
+  width: 300px;
+  margin: 0;
+}
+.frame2{
+  height: 282px;
+  width: 700px;
+}
+.frame3{
+  height: 180px;
+  width: 700px;;
+}
+
+
+
+img.hovering:hover {opacity: 0.4;}
+
+h1{
+  font-style: italic;
+  font-family: 'Times New Roman';
+}
+
+
+
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width:100%;
+}
+td, th {
+  border: 0px solid #dddddd;
+  text-align: left;
+  padding: 0px;
+}
+
+/*
+span.cls_020{font-family:Times,serif;font-size:7.0px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_020{font-family:Times,serif;font-size:7.0px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+*/

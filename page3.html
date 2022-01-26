@@ -1,0 +1,101 @@
+<!-- Fig. 11.9: DateTime.html -->
+<!-- Date and time methods of the Date object. -->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+   <head>
+		<meta http-equiv="refresh" content="60">
+		<link rel="icon" href="https://cdn.discordapp.com/attachments/795758905904988200/932152168704774234/UMR_round.jpeg">
+		<title>Karoke</title>
+		<style>
+			  body {
+				margin: auto;
+				text-align: center;
+				color: rgb(134, 183, 255);
+				background-color:black;
+				font-size:  35px;
+			  }
+			  .box {
+					margin: auto;
+					text-align: center;
+					background-color:rgba(110, 110, 110, 0.349);
+					width: 50%;
+					border-style: solid;
+					border-color: rgba(0, 0, 255, 0.534);
+			  }
+		</style>
+   </head>
+   <body>
+	   <br>
+		<div class="box">
+			<p id="time"></p>
+		</div>
+   </body>
+   <script type = "text/javascript">
+	var current = new Date();
+
+	let jst = current.getUTCHours() + 9;
+
+	let my = current.getUTCHours() + 8;
+
+	let time = my + ":"  + current.getMinutes() + " 【GMT+8 || Malaysia】" + 
+		"<br><br>" + 
+		jst + ":" + current.getMinutes() + " 【GMT+9 || Japan】";
+		document.getElementById("time").innerHTML = time;
+			
+</script>
+</html>
+<!--
+	<script type = "text/javascript">
+         var current = new Date();
+                  
+         document.writeln( 
+            "<h1>String representations and valueOf</h1>" );
+         document.writeln( "toString: " + current.toString() + 
+            "<br />toLocaleString: " + current.toLocaleString() +
+            "<br />toUTCString: " + current.toUTCString() + 
+            "<br />valueOf: " + current.valueOf() );
+                   
+         document.writeln(
+            "<h1>Get methods for local time zone</h1>" );
+         document.writeln( "getDate: " + current.getDate() +
+            "<br />getDay: " + current.getDay() +  
+            "<br />getMonth: " + current.getMonth() +    
+            "<br />getFullYear: " + current.getFullYear() +    
+            "<br />getTime: " + current.getTime() +    
+            "<br />getHours: " + current.getHours() +    
+            "<br />getMinutes: " + current.getMinutes() +    
+            "<br />getSeconds: " + current.getSeconds() +    
+            "<br />getMilliseconds: " + current.getMilliseconds() +
+            "<br />getTimezoneOffset: " + current.getTimezoneOffset() );
+              
+         document.writeln(
+            "<h1>Specifying arguments for a new Date</h1>" );
+         var anotherDate = new Date( 2007, 2, 18, 1, 5, 0, 0 );
+         document.writeln( "Date: " + anotherDate );
+         
+         document.writeln( "<h1>Set methods for local time zone</h1>" ); 
+         anotherDate.setDate( 31 );      
+         anotherDate.setMonth( 11 );     
+         anotherDate.setFullYear( 2007 );
+         anotherDate.setHours( 23 );     
+         anotherDate.setMinutes( 59 );   
+         anotherDate.setSeconds( 59 );   
+         document.writeln( "Modified date: " + anotherDate );
+      </script>
+-->
+
+<!--
+**************************************************************************
+* (C) Copyright 1992-2008 by Deitel & Associates, Inc. and               *
+* Pearson Education, Inc. All Rights Reserved.                           *
+*                                                                        *
+* DISCLAIMER: The authors and publisher of this book have used their     *
+* best efforts in preparing the book. These efforts include the          *
+* development, research, and testing of the theories and programs        *
+* to determine their effectiveness. The authors and publisher make       *
+* no warranty of any kind, expressed or implied, with regard to these    *
+* programs or to the documentation contained in these books. The authors *
+* and publisher shall not be liable in any event for incidental or       *
+* consequential damages in connection with, or arising out of, the       *
+* furnishing, performance, or use of these programs.                     *
+**************************************************************************
+-->

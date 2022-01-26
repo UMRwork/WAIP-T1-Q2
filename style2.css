@@ -1,0 +1,165 @@
+html {
+    zoom: 150%;
+    scroll-behavior: smooth;
+  } 
+  
+  body {
+  margin: 0;
+  background-size: cover;
+  color: rgb(230, 224, 224);
+  font-family: Arial;
+  }
+  
+iframe{
+    width: 100%;
+    height: 470px;
+}
+
+  img.Umar{
+    border: 3px;
+    border-style: solid;
+    border-color:rgb(0, 0, 0);
+    margin: 10px;
+  }
+  
+  img.hovering:hover {opacity: 0.4;}
+  
+  h1{
+    font-style: italic;
+    font-family: 'Times New Roman';
+  }
+  
+  
+  
+  
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td, th {
+    border: 0px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  
+  
+  
+  
+  div.right-box{
+    margin: auto;
+    text-align: right;
+  }
+  div.mid-box{
+      margin: auto;
+      text-align: center;
+  }
+  div.normal-box{
+      margin: auto;
+      text-align: left;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  * {box-sizing: border-box}
+  
+  .container {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 0.01px;
+    padding-bottom: 0.01px;
+    color: rgb(0, 0, 0);
+    font-size: 7px;
+  }
+  
+  .box {
+    background-color: rgb(71, 63, 92);
+    padding: 7px;
+    border-style: solid;
+    border-color:black;
+  }
+  
+  .skill-box {
+    background-color: rgb(71, 63, 92);
+    padding: 7px;
+    border-style: solid;
+    border-color:black;
+    font-size: 10px;
+  }
+  
+  /*
+  ff0000    #ff40ff   #75138c   #2800ff     #00ff86     #65ab54     #228609     #83a040     #a05b40
+  */
+  
+  .ar       {width: 90%; background-color: #ff0000;}
+  .py       {width: 90%; background-color: #ff40ff;}
+  .cpl      {width: 90%; background-color: #75138c;}
+  .htmlcss  {width: 70%; background-color: #2800ff;}
+  .javsc    {width: 65%; background-color: #00f8ff;}
+  .renpy    {width: 80%; background-color: #00ff86;}
+  .c        {width: 63%; background-color: #65ab54;}
+  .cshrp    {width: 60%; background-color: #228609;}
+  .sql      {width: 55%; background-color: #a05b40;}
+  .mtlb     {width: 55%; background-color: #df9330;}
+  
+  .my       {width: 95%; background-color: #07be2f;}
+  .en       {width: 90%; background-color: #2196F3;}
+  .jp       {width: 70%; background-color: #f44336;}
+  
+  .solv     {width: 95%; background-color: #ca690f;}
+  .cre      {width: 90%; background-color: #136b13;}
+  .lis      {width: 75%; background-color: #0fb400;}
+  .soc      {width: 75%; background-color: #2dff6c;}
+  .team     {width: 70%; background-color: #77d5fa;}
+  .pres     {width: 70%; background-color: #3a0eff;}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  #navbar {
+      background-color: #333; /* Black background color */
+      position: fixed; /* Make it stick/fixed */
+      top: -50px; /* Hide the navbar 50 px outside of the top view */
+      width: 100%; /* Full width */
+      transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    }
+    
+    /* Style the navbar links */
+    #navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      text-decoration: none;
+    }
+    
+    #navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+  /*
+  span.cls_020{font-family:Times,serif;font-size:7.0px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+  div.cls_020{font-family:Times,serif;font-size:7.0px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+  */
+  
